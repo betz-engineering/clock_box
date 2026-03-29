@@ -1,0 +1,147 @@
+(footprint "OLED_0.91"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "0.91 Inch 128x32 IIC I2C White / Blue OLED LCD Display DIY Module SSD1306 Driver IC DC 3.3V 5V for arduino")
+	(property "Reference" "REF**"
+		(at 17.75 -0.5 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a0ac38d3-4458-4092-b126-5cb7faa9a406")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "OLED"
+		(at 0 7.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3d343175-918f-4267-bfff-150484840121")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c2c2ed6-684b-4b21-8deb-c00e579748d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db488f0d-078c-4dff-8d91-89db82538d61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start -19 -6)
+		(end 19 6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f9dc8f9a-29ba-47a9-8e33-46369dc2ae90")
+	)
+	(fp_rect
+		(start -14 -5.75)
+		(end 16 5.75)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "bc77db0f-0ee4-4424-b429-6788eee8003e")
+	)
+	(fp_rect
+		(start -11.9 -3.57)
+		(end 10.48 2.01)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "37f70b5d-d071-4dc5-9875-d8de559aa621")
+	)
+	(fp_rect
+		(start -19 -6)
+		(end 19 6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "51cbc7a1-7862-41fe-a19f-c1519d3790f9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 9.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "53b41dfe-3c98-4df2-a4cf-e35d78178f5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -17.5 3.81)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2ccd7761-7c7c-423a-adcc-104d3f300ada")
+	)
+	(pad "2" thru_hole circle
+		(at -17.5 1.27)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "44318123-0a0c-4d9a-83ff-f7031c8c3c5f")
+	)
+	(pad "3" thru_hole circle
+		(at -17.5 -1.27)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4f7ba3c5-5752-4b86-9c78-8d9ebbaf389d")
+	)
+	(pad "4" thru_hole circle
+		(at -17.5 -3.81)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "43079e07-d1cf-4dc7-8516-977a3e323c22")
+	)
+	(embedded_fonts no)
+)
