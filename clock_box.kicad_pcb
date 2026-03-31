@@ -6061,7 +6061,7 @@
 				)
 			)
 		)
-		(property "Value" "SIQ-02FVS3"
+		(property "Value" "Untitled"
 			(at 0 8 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6103,7 +6103,7 @@
 		(path "/62255874-b4d7-418c-b2df-59b36e66ca21")
 		(sheetname "/")
 		(sheetfile "clock_box.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr smd)
 		(fp_circle
 			(center 0 -4.5)
 			(end 0 -11.75)
@@ -6113,7 +6113,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "1e9c19f3-daba-4b4e-99a0-c528f4ced863")
+			(uuid "48683041-b70b-48d7-a8ab-b9e994ce7c7e")
 		)
 		(fp_rect
 			(start -6.25 -4)
@@ -6124,7 +6124,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "4b015ea9-cbbe-4d7f-a6a7-050006860ad9")
+			(uuid "00d8b2d7-68d5-44af-b097-2c48d8ba89e7")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 9.5 180)
@@ -6143,14 +6143,14 @@
 			(size 1.6 1.6)
 			(drill 1.6)
 			(layers "*.Cu" "*.Mask")
-			(uuid "ff5d6321-492e-4723-b2a1-c9c74139dde5")
+			(uuid "7165747a-37a0-46b7-b1a1-f1f36a5b2a59")
 		)
 		(pad "" np_thru_hole circle
 			(at 3 0 180)
 			(size 1.6 1.6)
 			(drill 1.6)
 			(layers "*.Cu" "*.Mask")
-			(uuid "f6ee5b35-c9c0-4a9e-8d55-06040275bcc4")
+			(uuid "311d6c57-c833-4684-956a-25d733797b62")
 		)
 		(pad "A" smd rect
 			(at -4 3.1 180)
@@ -6186,7 +6186,7 @@
 			(net 2 "GND")
 			(pinfunction "C")
 			(pintype "passive")
-			(uuid "ed5c5f47-ce3a-467b-87a9-3abceab24028")
+			(uuid "39a067da-a687-4e83-bc5d-2a81eb341b5d")
 		)
 		(pad "C" smd rect
 			(at 5.4 -3.2 180)
@@ -6195,7 +6195,7 @@
 			(net 2 "GND")
 			(pinfunction "C")
 			(pintype "passive")
-			(uuid "76ee25ee-0890-4ea3-b797-d6e57ef1b245")
+			(uuid "53a9bb04-b3f6-4da0-9ab3-057cbb34c207")
 		)
 		(pad "S1" smd rect
 			(at -1.475 3.1 180)
@@ -6207,6 +6207,17 @@
 			(uuid "abc9d9af-3924-494e-b095-a9f21246c186")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/lib/SIQ-02FVS3.step"
+			(offset
+				(xyz 0 4.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")

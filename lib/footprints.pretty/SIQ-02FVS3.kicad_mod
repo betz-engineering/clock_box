@@ -54,7 +54,7 @@
 			)
 		)
 	)
-	(attr exclude_from_pos_files exclude_from_bom)
+	(attr smd)
 	(fp_circle
 		(center 0 -4.5)
 		(end 0 -11.75)
@@ -140,4 +140,15 @@
 		(uuid "697bb752-adb0-41e8-9ab6-a2655bffcb21")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/SIQ-02FVS3.step"
+		(offset
+			(xyz 0 4.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
