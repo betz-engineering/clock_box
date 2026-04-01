@@ -1422,7 +1422,7 @@
 			)
 		)
 		(property "Value" "LMX2572"
-			(at 14.986 29.718 90)
+			(at 9.652 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1711,7 +1711,25 @@
 				)
 			)
 			(pin output line
-				(at 25.4 17.78 180)
+				(at 25.4 34.29 180)
+				(length 2.54)
+				(name "RFoutA_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 25.4 26.67 180)
 				(length 2.54)
 				(name "RFoutA_N"
 					(effects
@@ -1731,32 +1749,14 @@
 			(pin output line
 				(at 25.4 15.24 180)
 				(length 2.54)
-				(name "RFoutA_P"
+				(name "RFoutB_P"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 25.4 11.43 180)
-				(length 2.54)
-				(name "RFoutB_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
+				(number "19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1767,14 +1767,14 @@
 			(pin output line
 				(at 25.4 8.89 180)
 				(length 2.54)
-				(name "RFoutB_P"
+				(name "RFoutB_N"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "19"
+				(number "18"
 					(effects
 						(font
 							(size 1.27 1.27)
