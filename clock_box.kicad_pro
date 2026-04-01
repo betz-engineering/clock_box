@@ -58,24 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "copper_edge_clearance|78205200|69124800|f59cbbea-1f53-40e0-9960-8317380d53f4|c97bc274-a89a-4263-a13c-0d9f41910c46",
-          ""
-        ],
-        [
-          "copper_edge_clearance|78275699|67849285|ab32f0a6-1ab6-4a57-ab18-689b8b96cb23|c97bc274-a89a-4263-a13c-0d9f41910c46",
-          ""
-        ],
-        [
-          "copper_edge_clearance|80770200|68717694|ff8f5d1f-d5fd-440e-b960-b3cf3406f3f7|d57af3a1-5fdc-4aec-b92f-ef59cad1f0ee",
-          ""
-        ],
-        [
-          "copper_edge_clearance|80805200|67924800|c105db0f-e980-4cd5-a69a-6ef1f3f7535c|d57af3a1-5fdc-4aec-b92f-ef59cad1f0ee",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -681,6 +664,10 @@
     [
       "61164785-2abe-4800-8948-e7ba22968736",
       "Root"
+    ],
+    [
+      "f765f746-cfb9-4537-a868-e82d8f320f3a",
+      "User Interface"
     ]
   ],
   "text_variables": {}
