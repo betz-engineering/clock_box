@@ -20,3 +20,4 @@ _autosave*
 *auto_saved_files*
 fabrication-toolkit-options.json
 production/
+.history
