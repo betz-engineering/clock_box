@@ -1468,7 +1468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-40-1EP_6x6mm_P0.5mm_EP3.5x3.5mm_ThermalVias"
+		(property "Footprint" "Package_DFN_QFN:VQFN-40-1EP_6x6mm_P0.5mm_EP3.5x3.5mm"
 			(at 2.032 -2.032 0)
 			(show_name no)
 			(do_not_autoplace no)
