@@ -264,7 +264,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1003300|863600|8f63d963-8727-4a12-a6f1-230a18f5e72e|9827925a-f15d-4770-8031-2f2dd5cea707|/61164785-2abe-4800-8948-e7ba22968736|/61164785-2abe-4800-8948-e7ba22968736|/61164785-2abe-4800-8948-e7ba22968736",
+        ""
+      ],
+      [
+        "pin_to_pin|495300|609600|ac282cb8-8907-4883-b790-be9e0194c317|9827925a-f15d-4770-8031-2f2dd5cea707|/61164785-2abe-4800-8948-e7ba22968736|/61164785-2abe-4800-8948-e7ba22968736|/61164785-2abe-4800-8948-e7ba22968736",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -471,14 +480,14 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -695,7 +704,7 @@
         "uuid": "61164785-2abe-4800-8948-e7ba22968736"
       }
     ],
-    "used_designators": "R17-18,#PWR35,#PWR77",
+    "used_designators": "#PWR19,#PWR24,FB7-8,#FLG3-9",
     "variants": []
   },
   "sheets": [
