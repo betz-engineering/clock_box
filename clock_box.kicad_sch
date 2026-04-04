@@ -9226,7 +9226,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "077b4f0b-d056-40d2-8e3a-b35fe023c80b")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 250.952 60.198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9291,7 +9291,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -9769,7 +9769,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16533269-a80d-41bc-a8d6-be981900ff3a")
-		(property "Reference" "C2"
+		(property "Reference" "C37"
 			(at 165.608 140.716 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9855,7 +9855,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C2")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -9873,7 +9873,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d0742f6-7125-42fb-a272-e776840e3799")
-		(property "Reference" "C8"
+		(property "Reference" "C34"
 			(at 73.406 47.244 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9959,7 +9959,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C8")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -9977,7 +9977,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e77d5d7-8277-4fb5-a51f-2c5676e18e77")
-		(property "Reference" "C38"
+		(property "Reference" "C8"
 			(at 220.472 69.342 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10063,7 +10063,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C38")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -10080,7 +10080,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21be9383-3a52-489a-8a69-69c3584488a4")
-		(property "Reference" "R25"
+		(property "Reference" "R15"
 			(at 234.95 52.324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10153,7 +10153,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "R25")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -10171,7 +10171,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "263cb915-228a-4a36-b40a-bf327cee0177")
-		(property "Reference" "C24"
+		(property "Reference" "C28"
 			(at 220.726 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10257,7 +10257,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C24")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -10274,7 +10274,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26b229b9-61f7-4c4c-8f20-c1465f0f1334")
-		(property "Reference" "R5"
+		(property "Reference" "R25"
 			(at 67.564 142.494 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10347,7 +10347,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "R5")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -10518,7 +10518,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "284f2af6-a1b4-4bed-aebf-66799f977a1e")
-		(property "Reference" "R3"
+		(property "Reference" "R28"
 			(at 154.94 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10591,7 +10591,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "R3")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -10686,7 +10686,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28cef422-11d1-4ecb-a955-89830cb45a8f")
-		(property "Reference" "C37"
+		(property "Reference" "C18"
 			(at 220.472 43.942 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10772,7 +10772,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C37")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -11096,7 +11096,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c961a94-d7d8-4d31-8702-f4190ab4dcaa")
-		(property "Reference" "R28"
+		(property "Reference" "R13"
 			(at 234.95 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11169,7 +11169,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "R28")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -11419,7 +11419,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "345301c7-1f7d-4985-9d49-0236be738a7a")
-		(property "Reference" "C39"
+		(property "Reference" "C7"
 			(at 220.472 62.992 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11505,7 +11505,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C39")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -11754,7 +11754,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3901d171-36b0-4864-8a55-96cc15559351")
-		(property "Reference" "R4"
+		(property "Reference" "R26"
 			(at 67.564 139.954 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11827,7 +11827,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "R4")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -11921,7 +11921,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ca7002b-0acb-4973-9666-df70387c89be")
-		(property "Reference" "C40"
+		(property "Reference" "C22"
 			(at 157.226 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12007,7 +12007,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C40")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -12336,7 +12336,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44a049fd-e34b-440e-8d08-51919283cb72")
-		(property "Reference" "R2"
+		(property "Reference" "R29"
 			(at 154.94 134.874 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12409,7 +12409,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "R2")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -12426,7 +12426,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "490624df-0895-41b8-b6ba-0a60cbbb666e")
-		(property "Reference" "R12"
+		(property "Reference" "R23"
 			(at 209.55 82.804 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12499,7 +12499,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "R12")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -12747,7 +12747,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "560ab505-3152-4cd2-ba39-564e58c6e157")
-		(property "Reference" "C41"
+		(property "Reference" "C17"
 			(at 156.972 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12833,7 +12833,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C41")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -12938,7 +12938,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "599401ca-4e2c-4b57-be0d-ba92a089cbc0")
-		(property "Reference" "FB7"
+		(property "Reference" "FB2"
 			(at 204.47 136.906 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13011,7 +13011,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "FB7")
+					(reference "FB2")
 					(unit 1)
 				)
 			)
@@ -13183,7 +13183,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e859d2b-76c7-40ae-a1aa-72ef44f28d5a")
-		(property "Reference" "C23"
+		(property "Reference" "C9"
 			(at 213.106 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13269,7 +13269,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C23")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -13442,7 +13442,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61acbbf1-ad7e-4fca-98fe-a91cb7113098")
-		(property "Reference" "C28"
+		(property "Reference" "C14"
 			(at 228.854 141.224 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13528,7 +13528,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C28")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -13545,7 +13545,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61d8d5ad-4bf1-4439-8ee5-b113b7395432")
-		(property "Reference" "C1"
+		(property "Reference" "C36"
 			(at 123.952 132.334 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13631,7 +13631,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C1")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -13649,7 +13649,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6450caf5-e608-454a-aa10-b24ec8157ecc")
-		(property "Reference" "C21"
+		(property "Reference" "C10"
 			(at 209.296 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13735,7 +13735,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C21")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -13830,7 +13830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69bdf76e-173a-48f1-b232-477735443bbb")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 77.0733 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13975,7 +13975,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -13992,7 +13992,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ae68acd-1f01-4d5e-8c8b-1f55288e9e21")
-		(property "Reference" "C9"
+		(property "Reference" "C33"
 			(at 78.994 47.244 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14078,7 +14078,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C9")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -14171,7 +14171,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "6e028222-727c-4e67-bbd8-10fdb4a37d5b")
-		(property "Reference" "R23"
+		(property "Reference" "R16"
 			(at 234.95 61.214 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14244,7 +14244,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "R23")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -14262,7 +14262,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ef9f69c-2432-4137-9426-2afe2d6edf3e")
-		(property "Reference" "C32"
+		(property "Reference" "C27"
 			(at 221.996 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14348,7 +14348,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C32")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -14596,7 +14596,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "733d3c66-61b1-4f51-b471-920034c3fd76")
-		(property "Reference" "FB4"
+		(property "Reference" "FB5"
 			(at 78.74 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14669,7 +14669,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "FB4")
+					(reference "FB5")
 					(unit 1)
 				)
 			)
@@ -14765,7 +14765,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7662463b-8ac9-4e04-acc4-0f12cb10feb6")
-		(property "Reference" "R26"
+		(property "Reference" "R17"
 			(at 234.95 44.704 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14838,7 +14838,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "R26")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -15163,7 +15163,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d013748-9f82-4f09-89c6-706bb14133a9")
-		(property "Reference" "C22"
+		(property "Reference" "C12"
 			(at 201.676 124.968 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15249,7 +15249,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C22")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -15421,7 +15421,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "806fbc51-952a-46c7-b588-044730ffcde2")
-		(property "Reference" "C35"
+		(property "Reference" "C19"
 			(at 152.146 41.148 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15507,7 +15507,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C35")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -15525,7 +15525,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8199b91b-1e78-4eea-b52d-26afcf637f99")
-		(property "Reference" "R1"
+		(property "Reference" "R20"
 			(at 172.212 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15609,7 +15609,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "R1")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -15872,7 +15872,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8db1a6c7-9ed0-491d-aae4-2356103d9732")
-		(property "Reference" "FB6"
+		(property "Reference" "FB4"
 			(at 148.336 33.528 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15945,7 +15945,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "FB6")
+					(reference "FB4")
 					(unit 1)
 				)
 			)
@@ -15963,7 +15963,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8edd5e44-8606-456a-a1b4-6a574183fba4")
-		(property "Reference" "C18"
+		(property "Reference" "C24"
 			(at 232.664 141.224 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16049,7 +16049,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C18")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -16066,7 +16066,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90b76763-1789-451f-a599-253c8ed1d82f")
-		(property "Reference" "Y2"
+		(property "Reference" "Y1"
 			(at 143.51 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16134,7 +16134,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "Y2")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -16152,7 +16152,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "990eb037-3b6b-4860-b1b2-6ec12c5a91a6")
-		(property "Reference" "C31"
+		(property "Reference" "C30"
 			(at 196.342 90.424 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16238,7 +16238,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C31")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -16414,7 +16414,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ffefa17-5ca4-4c01-94c1-4ed2f621e3e7")
-		(property "Reference" "U5"
+		(property "Reference" "U3"
 			(at 217.17 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16435,7 +16435,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-40-1EP_6x6mm_P0.5mm_EP3.5x3.5mm_ThermalVias"
+		(property "Footprint" "Package_DFN_QFN:VQFN-40-1EP_6x6mm_P0.5mm_EP3.5x3.5mm"
 			(at 271.272 136.398 0)
 			(hide yes)
 			(show_name no)
@@ -16594,7 +16594,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "U5")
+					(reference "U3")
 					(unit 2)
 				)
 			)
@@ -16765,7 +16765,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8726f71-80fe-4090-bd2c-297836619a8d")
-		(property "Reference" "C4"
+		(property "Reference" "C31"
 			(at 240.284 145.034 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16851,7 +16851,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C4")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -16869,7 +16869,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a97bf778-1d41-4eb1-81f2-5a0056b957df")
-		(property "Reference" "C30"
+		(property "Reference" "C26"
 			(at 210.312 88.646 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16955,7 +16955,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C30")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -16973,7 +16973,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac8b3096-f3c9-43c7-9ce0-732beafdc425")
-		(property "Reference" "C19"
+		(property "Reference" "C23"
 			(at 236.474 141.224 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17059,7 +17059,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C19")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -17076,7 +17076,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad4c83c6-14a1-4c05-83bd-882f2ebbebc9")
-		(property "Reference" "R27"
+		(property "Reference" "R18"
 			(at 154.686 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17149,7 +17149,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "R27")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -17166,7 +17166,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af05daf1-a924-4775-b5a0-4e407ef4b4c6")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 75.184 146.812 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17251,7 +17251,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -17268,7 +17268,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2957bfc-fa04-419a-94cd-0b2db04f0a98")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 43.688 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17397,7 +17397,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -17568,7 +17568,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b80483a9-6d0e-4c4a-8f7c-ff1900a7c18e")
-		(property "Reference" "C6"
+		(property "Reference" "C35"
 			(at 79.502 164.084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17654,7 +17654,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C6")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -17671,7 +17671,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8df723a-3791-4e38-bf28-35a1970c099b")
-		(property "Reference" "FB3"
+		(property "Reference" "FB6"
 			(at 72.39 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17744,7 +17744,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "FB3")
+					(reference "FB6")
 					(unit 1)
 				)
 			)
@@ -17761,7 +17761,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bcb7ddd8-9cee-4774-8deb-1c737921c997")
-		(property "Reference" "FB1"
+		(property "Reference" "FB7"
 			(at 67.31 131.826 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17825,6 +17825,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 72.39 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8de26cf4-44e6-494e-94ae-98a4647165c4")
 		)
@@ -17834,7 +17845,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "FB1")
+					(reference "FB7")
 					(unit 1)
 				)
 			)
@@ -17955,7 +17966,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bde3616d-b2cd-4849-8f03-b039572b66ee")
-		(property "Reference" "C26"
+		(property "Reference" "C32"
 			(at 247.904 145.034 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18041,7 +18052,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C26")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -18058,7 +18069,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c639e984-aeba-4910-b7f3-6132ebfdcdab")
-		(property "Reference" "C7"
+		(property "Reference" "C38"
 			(at 87.122 164.084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18144,7 +18155,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C7")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -18162,7 +18173,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c79716d8-82ca-49d2-9cdd-2f326d7db0be")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 216.916 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18248,7 +18259,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -18265,7 +18276,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cdfc7a4d-a1c2-47d6-96eb-0a919e618f92")
-		(property "Reference" "FB8"
+		(property "Reference" "FB1"
 			(at 200.152 119.888 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18338,7 +18349,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "FB8")
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -18355,7 +18366,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4c11778-076e-4866-bbfe-87acd0dc624d")
-		(property "Reference" "U6"
+		(property "Reference" "U2"
 			(at 142.494 46.228 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18426,7 +18437,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "U6")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -18674,7 +18685,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dae07af9-8807-43bb-9629-10c047a2a3a5")
-		(property "Reference" "C33"
+		(property "Reference" "C16"
 			(at 182.88 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18758,7 +18769,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C33")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -18775,7 +18786,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc5c2f32-ab90-4093-8ee0-48894fb481c0")
-		(property "Reference" "C27"
+		(property "Reference" "C25"
 			(at 251.714 145.034 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18861,7 +18872,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C27")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -19107,7 +19118,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e61323d4-1eac-4f48-aef4-2eea21b3cfea")
-		(property "Reference" "R21"
+		(property "Reference" "R22"
 			(at 208.788 94.488 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19180,7 +19191,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "R21")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -19198,7 +19209,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e66b3868-d83a-42a2-8e26-c70e456495ce")
-		(property "Reference" "C36"
+		(property "Reference" "C13"
 			(at 151.892 70.104 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19284,7 +19295,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C36")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -19302,7 +19313,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eaba1ef4-71a1-4b2d-b32b-3402cc57fc4b")
-		(property "Reference" "U5"
+		(property "Reference" "U3"
 			(at 203.2 37.084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19482,7 +19493,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "U5")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -19499,7 +19510,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eaff1466-4c90-43bf-8798-cb603142c12d")
-		(property "Reference" "R19"
+		(property "Reference" "R24"
 			(at 50.038 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19583,7 +19594,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "R19")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -19601,7 +19612,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb15c18b-5f2e-481c-8da2-f3f1a295e122")
-		(property "Reference" "C34"
+		(property "Reference" "C15"
 			(at 220.472 51.562 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19687,7 +19698,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C34")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -19782,7 +19793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4680f3e-7d36-4159-a875-0944c6146116")
-		(property "Reference" "U1"
+		(property "Reference" "U6"
 			(at 142.24 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19864,7 +19875,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "U1")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -19958,7 +19969,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f83eecb6-deff-4779-b224-4d40554f8173")
-		(property "Reference" "C25"
+		(property "Reference" "C20"
 			(at 224.536 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20044,7 +20055,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "C25")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -20061,7 +20072,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "f939bcb1-3ad0-4873-8dd5-012be14233b7")
-		(property "Reference" "R29"
+		(property "Reference" "R14"
 			(at 246.634 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20134,7 +20145,7 @@
 		(instances
 			(project "clock_box"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "R29")
+					(reference "R14")
 					(unit 1)
 				)
 			)
