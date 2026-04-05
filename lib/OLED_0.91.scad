@@ -1,9 +1,6 @@
 $fn = $preview ? 30 : 150;
 
-// centered on XY only
-module cube_(size=[1, 1, 1])
-	translate([-size[0] / 2, -size[1] / 2, 0])
-		cube(size);
+include <roundedcube.scad>
 
 color("green")
 	cube_(size=[38, 12, 1.6]);
