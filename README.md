@@ -5,4 +5,6 @@ __Work in progress__
 
 ![clock_box concept](pdf/clock_box.png)
 
+![clock_box render](pdf/render.jpg)
+
 [Schematic](pdf/clock_box.pdf)

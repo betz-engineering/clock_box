@@ -3424,7 +3424,7 @@
 			(uuid "703da740-24a9-4628-942b-74e21854460d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/WQFN-28-1EP_4x4mm_P0.4mm_EP2.7x2.7mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-28-1EP_4x4mm_P0.4mm_EP2.4x2.4mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6970,7 +6970,7 @@
 			(start -11.9 -3.57)
 			(end 10.48 2.01)
 			(stroke
-				(width 0.12)
+				(width 0.08)
 				(type dot)
 			)
 			(fill no)
@@ -6993,26 +6993,26 @@
 			(end -11.9 2.01)
 			(stroke
 				(width 0.1)
-				(type default)
+				(type solid)
 			)
 			(layer "Cmts.User")
-			(uuid "b040eefe-b2be-4384-872c-2868328656b2")
+			(uuid "caac430b-7f98-4a2f-8dce-e860afac2d60")
 		)
 		(fp_line
 			(start -11.9 -3.57)
 			(end 10.48 2.01)
 			(stroke
 				(width 0.1)
-				(type default)
+				(type solid)
 			)
 			(layer "Cmts.User")
-			(uuid "e5bcd7fa-1f9c-4bdb-adbc-86d29bdae890")
+			(uuid "afe5fe19-feec-4221-926d-22bc6f4dbb60")
 		)
 		(fp_rect
 			(start -11.9 -3.57)
 			(end 10.48 2.01)
 			(stroke
-				(width 0.12)
+				(width 0.08)
 				(type solid)
 			)
 			(fill no)
@@ -7021,7 +7021,7 @@
 		)
 		(fp_rect
 			(start -19 -6)
-			(end -16 6)
+			(end 19 6)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -7087,6 +7087,28 @@
 			(uuid "f4fd70e8-b035-4bdc-8e25-fdf674d7decf")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
+			(offset
+				(xyz -17.5 3.8 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/OLED_0.91.step"
+			(offset
+				(xyz 0 0 2.55)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -7447,12 +7469,6 @@
 		(path "/9c4b7cfc-0c7f-4b8b-9dbf-9483a020ece8")
 		(sheetname "/")
 		(sheetfile "clock_box.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7880,15 +7896,15 @@
 			(uuid "82fefc19-3181-489c-9de1-76148f58283b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount.step"
+		(model "${KIPRJMOD}/lib/HYCW07-SMAW1163-1650B.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 3.6 0 0.42)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -11290,7 +11306,7 @@
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf")
 		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
 		(property "Reference" "J3"
-			(at 6.25 2.5 0)
+			(at 5.25 -1 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "5b9430e9-27d2-4425-bbbd-ffb31d53c350")
@@ -15459,12 +15475,6 @@
 		(path "/077b4f0b-d056-40d2-8e3a-b35fe023c80b")
 		(sheetname "/")
 		(sheetfile "clock_box.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15892,15 +15902,15 @@
 			(uuid "eeadeedd-daf1-4ea0-b1d4-9112b406cd89")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount.step"
+		(model "${KIPRJMOD}/lib/HYCW07-SMAW1163-1650B.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 3.6 0 0.42)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -17106,7 +17116,7 @@
 			(uuid "b2b5627e-4c71-4a9f-bb61-53052367b225")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/VQFN-40-1EP_6x6mm_P0.5mm_EP3.5x3.5mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-40-1EP_6x6mm_P0.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)

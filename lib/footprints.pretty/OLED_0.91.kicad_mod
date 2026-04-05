@@ -1,14 +1,14 @@
 (footprint "OLED_0.91"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "0.91 Inch 128x32 IIC I2C White / Blue OLED LCD Display DIY Module SSD1306 Driver IC DC 3.3V 5V for arduino")
 	(property "Reference" "REF**"
 		(at 17.75 -0.5 90)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "a0ac38d3-4458-4092-b126-5cb7faa9a406")
+		(uuid "8a22f0dd-1880-4bc5-89d9-cd3256b544af")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 7.75 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "3d343175-918f-4267-bfff-150484840121")
+		(uuid "cbc33b9a-b925-4492-9dd3-fc162cad189c")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4c2c2ed6-684b-4b21-8deb-c00e579748d1")
+		(uuid "26564a0a-f9f7-43ce-9ae9-a23d2579253b")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "db488f0d-078c-4dff-8d91-89db82538d61")
+		(uuid "c0354676-25f0-4bc3-a72e-3558038b6ce7")
 		(effects
 			(font
 				(size 1 1)
@@ -55,38 +55,59 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -19 -6)
 		(end 19 6)
 		(stroke
-			(width 0.12)
+			(width 0.08)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "f9dc8f9a-29ba-47a9-8e33-46369dc2ae90")
-	)
-	(fp_rect
-		(start -14 -5.75)
-		(end 16 5.75)
-		(stroke
-			(width 0.06)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "bc77db0f-0ee4-4424-b429-6788eee8003e")
+		(uuid "0263d04b-3bcd-4e88-845f-c64f41d131b3")
 	)
 	(fp_rect
 		(start -11.9 -3.57)
 		(end 10.48 2.01)
 		(stroke
-			(width 0.12)
+			(width 0.08)
+			(type dot)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f23a6aeb-caa4-4e09-b924-16fda7059916")
+	)
+	(fp_line
+		(start -11.9 -3.57)
+		(end 10.48 2.01)
+		(stroke
+			(width 0.1)
 			(type solid)
 		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "37f70b5d-d071-4dc5-9875-d8de559aa621")
+		(layer "Cmts.User")
+		(uuid "945bc07b-ff05-48ea-a01e-fa30c6078123")
+	)
+	(fp_line
+		(start 10.48 -3.57)
+		(end -11.9 2.01)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "812c6e4a-fcd8-4e84-bc76-9b1d0c66280b")
+	)
+	(fp_rect
+		(start -11.9 -3.57)
+		(end 10.48 2.01)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "4aaa6ddf-f3c3-4d5c-b872-607a6403ba6c")
 	)
 	(fp_rect
 		(start -19 -6)
@@ -97,13 +118,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "51cbc7a1-7862-41fe-a19f-c1519d3790f9")
+		(uuid "fc4b113c-0c4d-4823-8c7d-12a83c69027f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 9.25 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "53b41dfe-3c98-4df2-a4cf-e35d78178f5f")
+		(uuid "7b800f27-6f44-4d1e-929d-e14e755d8911")
 		(effects
 			(font
 				(size 1 1)
@@ -117,7 +138,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "2ccd7761-7c7c-423a-adcc-104d3f300ada")
+		(uuid "aafc34d2-4bc1-4102-9ecf-a9c30d44d64e")
 	)
 	(pad "2" thru_hole circle
 		(at -17.5 1.27)
@@ -125,7 +146,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "44318123-0a0c-4d9a-83ff-f7031c8c3c5f")
+		(uuid "6b6a1be4-3678-41ed-8bcf-f344a038867b")
 	)
 	(pad "3" thru_hole circle
 		(at -17.5 -1.27)
@@ -133,7 +154,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "4f7ba3c5-5752-4b86-9c78-8d9ebbaf389d")
+		(uuid "35cda26f-47c8-46be-ac51-54a48be7aee6")
 	)
 	(pad "4" thru_hole circle
 		(at -17.5 -3.81)
@@ -141,7 +162,29 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "43079e07-d1cf-4dc7-8516-977a3e323c22")
+		(uuid "e0680164-fc6b-4ff7-b187-d07c1fb9f101")
 	)
 	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
+		(offset
+			(xyz -17.5 3.8 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
+	(model "${KIPRJMOD}/lib/OLED_0.91.step"
+		(offset
+			(xyz 0 0 2.55)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
