@@ -1,14 +1,14 @@
 (footprint "QS-301-AGS5P"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Thumbwheel switch")
 	(property "Reference" "REF**"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "ce75fb67-8e81-43f2-be4f-2364ec00613f")
+		(uuid "5ec1978c-a357-4eff-b11b-3e580a9245f4")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 4 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "02fc534c-14d6-4a22-809b-82dcb382a74f")
+		(uuid "8afa95f2-480e-49ed-a850-b99bcba7af63")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "56bf0166-7f63-4511-bbb1-12c147183c62")
+		(uuid "56f5b6da-e571-45db-82d0-a489fac1cddf")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "38cac4b6-b9df-4519-970a-605203c6794a")
+		(uuid "09aa4a1d-3f7a-4615-9ddd-e619fb6e47fb")
 		(effects
 			(font
 				(size 1 1)
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.5 -11.75)
 		(end 0.5 -11.75)
@@ -63,7 +64,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "edbdc65c-e7c3-41ad-8067-1297bd63d499")
+		(uuid "7af3f0bb-625d-43fd-9e6a-f6f42bb0e10a")
 	)
 	(fp_arc
 		(start -7 -4.5)
@@ -74,7 +75,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "8f51317a-4a96-4e33-a8b1-af1675f6b921")
+		(uuid "74df2852-57e5-496f-90fe-2d825c20c269")
 	)
 	(fp_rect
 		(start -6.5 -5.75)
@@ -85,13 +86,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "e9c66e6e-c5d3-49f7-95f3-829b72516354")
+		(uuid "122a6b47-eb42-41b1-bdb0-cf9326eddefd")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 5.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "88d49ad8-2321-4ec1-aeb2-42da418173f6")
+		(uuid "44e90a7a-25a6-40e4-98fe-557fe55828e6")
 		(effects
 			(font
 				(size 1 1)
@@ -104,44 +105,55 @@
 		(size 1.05 1.05)
 		(drill 1.05)
 		(layers "*.Cu" "*.Mask")
-		(uuid "b65e6b05-04fb-426c-abcc-eff09242828e")
+		(uuid "b0519850-c5ab-49ff-bb6f-35f8451b2025")
 	)
 	(pad "" np_thru_hole circle
 		(at 2.5 -3.65)
 		(size 1.05 1.05)
 		(drill 1.05)
 		(layers "*.Cu" "*.Mask")
-		(uuid "1c305667-1564-4159-bc27-c6df0b3e96f1")
+		(uuid "59e4463a-6fba-4c45-a105-7a1004ae1ab1")
 	)
 	(pad "A" smd rect
 		(at -2.5 0)
 		(size 1.9 1.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "f130e21a-45ed-488b-948b-13e61c0033f9")
+		(uuid "9f646025-df5f-4b24-8a55-5159c419c882")
 	)
 	(pad "B" smd rect
 		(at 2.5 0)
 		(size 1.9 1.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "35f0428a-7731-4dab-890e-2c7a9d27c472")
+		(uuid "75eee463-abb4-4742-baf2-fa4a0417eee4")
 	)
 	(pad "C" smd rect
 		(at -5.4 -4.65)
 		(size 1.6 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "df9e20a2-c3d3-4dba-b27d-8048d950ab1b")
+		(uuid "351221f6-4249-4d8d-8bb5-3ea54a6b5810")
 	)
 	(pad "C" smd rect
 		(at 5.4 -4.65)
 		(size 1.6 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "ad3fff4d-10d6-4181-8960-f8a8ee47ba8c")
+		(uuid "246b4e7b-f748-44e0-916c-75fbb80b3214")
 	)
 	(pad "S1" smd rect
 		(at 0 0)
 		(size 1.9 1.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "6a0e4f0b-169a-4579-80c0-57ea90800192")
+		(uuid "cc005c21-6059-4515-b655-9717ad8fa2d3")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/QS-301-AGS5P.step"
+		(offset
+			(xyz 0 -0.42 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
