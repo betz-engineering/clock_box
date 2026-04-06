@@ -5767,7 +5767,7 @@
 				)
 			)
 		)
-		(property "Value" "QS-301-AGS5P"
+		(property "Value" "QS-302-AGS8P"
 			(at 55.88 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5777,7 +5777,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:QS-301-AGS5P"
+		(property "Footprint" "footprints:QS-302-AGS8P"
 			(at 55.88 105.918 0)
 			(hide yes)
 			(show_name no)
