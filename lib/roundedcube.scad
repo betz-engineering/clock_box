@@ -1,8 +1,6 @@
 // Higher definition curves
 $fs = 0.01;
 
-include <roundedcube.scad>
-
 // centered on XY only
 module roundedcubez_(size = [1, 1, 1], radius = 0.5) {
 	linear_extrude(height=size[2]) {

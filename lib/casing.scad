@@ -84,17 +84,17 @@ module enclosure() {
 
 
 // Preview
-pcb();
-intersection() {
-	enclosure();
-	// translate([0, 0, -50])
-	// 	cube(size=[100, 100, 100], center=true);
-}
+// pcb();
+// intersection() {
+// 	enclosure();
+// 	// translate([0, 0, -50])
+// 	// 	cube(size=[100, 100, 100], center=true);
+// }
 
 
 // Export the 2 shells
-// intersection() {
-// 	enclosure();
-// 	translate([0, 0, 50])
-// 		cube(size=[100, 100, 100], center=true);
-// }
+intersection() {
+	enclosure();
+	translate([0, 0, -50])
+		cube(size=[100, 100, 100], center=true);
+}
