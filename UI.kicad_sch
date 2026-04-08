@@ -3533,7 +3533,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47n"
+		(property "Value" "100n"
 			(at 107.95 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4005,7 +4005,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47n"
+		(property "Value" "100n"
 			(at 113.03 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4087,7 +4087,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47n"
+		(property "Value" "100n"
 			(at 102.87 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4650,7 +4650,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47n"
+		(property "Value" "100n"
 			(at 107.95 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5016,7 +5016,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47n"
+		(property "Value" "100n"
 			(at 102.87 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5098,7 +5098,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47n"
+		(property "Value" "100n"
 			(at 113.03 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
