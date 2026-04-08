@@ -133,20 +133,20 @@ module pcb() {
 
 
 // Comment these for export
-// pcb();
+pcb();
 
-// translate([0, 17.5, 4])
-// 	rotate([180, 0, 0])
-// 		screw();
+translate([0, 17.5, 4])
+	rotate([180, 0, 0])
+		screw();
 
 
 // Export the 2 shells
 intersection() {
 	union() {
-		// enclosure2(true);
+		enclosure2(true);
 		enclosure2(false);
 	}
-	// translate([50, 0, 0])
-	// 	cube(size=[100, 100, 100], center=true);
+	translate([50, 0, 0])
+		cube(size=[100, 100, 100], center=true);
 }
 
