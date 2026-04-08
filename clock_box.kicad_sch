@@ -9,7 +9,7 @@
 		(date "2026-04-02")
 		(rev "-")
 		(company "Betz Engineering")
-		(comment 1 "A versatile clock generator")
+		(comment 1 "a versatile clock generator")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"

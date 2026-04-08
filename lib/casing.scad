@@ -46,12 +46,6 @@ module enclosure() {
 						cube([7, 7, 5], center=true);
 				}
 
-		// Encoder
-		translate([10, 16, 2.6])
-			cylinder(h=2.5, d=16, center=true);
-		// translate([17.3, 16, 2.6])
-		// 	cylinder(h=2.5, d=16, center=true);
-
 		// Power LED
 		translate([-18.5, 0, 0])
 			cylinder(d=3, h=5.55);
@@ -80,6 +74,12 @@ module enclosure2(is_top=false) {
 				}
 			}
 			if (is_top) {
+				// Encoder
+				translate([10, 16, 2.6])
+					cylinder(h=2.5, d=15.5, center=true);
+				// translate([17.3, 16, 2.6])
+				// 	cylinder(h=2.5, d=16, center=true);
+
 				// Rocker
 				translate([-10, 16, 0.9 - 2])
 					cylinder(h=2.5 + 4, d=15, center=true);
@@ -143,10 +143,10 @@ module pcb() {
 // Export the 2 shells
 intersection() {
 	union() {
-		enclosure2(true);
-		// enclosure2(false);
+		// enclosure2(true);
+		enclosure2(false);
 	}
-	// translate([-50, 0, 0])
+	// translate([50, 0, 0])
 	// 	cube(size=[100, 100, 100], center=true);
 }
 
