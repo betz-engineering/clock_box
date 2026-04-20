@@ -1,7 +1,7 @@
 $fn = $preview ? 30 : 150;
 
 include <roundedcube.scad>
-use <3x3_font_for_nerds.ttf>
+include <OLED_0.91.scad>
 
 // Makes the casing thickness assymetric in y-direction
 left_shift = 2.5 / 2;
@@ -10,7 +10,7 @@ w_shell = 1.5;
 // o_x = 48;
 o_x = 46.5;
 o_y = 43;
-o_z = 11;
+o_z = 10.75;
 
 module enclosure() {
 	difference() {
@@ -26,9 +26,9 @@ module enclosure() {
 
 		// OLED
 		// translate([1.96, 0, 0])
-		// 	roundedcubez_(size=[23 + 2, 7 + 1, 10], radius=1.5);
-		translate([2.5, 0, 0])
-			roundedcubez_(size=[23 + 2, 7 + 1, 10], radius=1.5);
+		// 	roundedcubez_(size=[23, 7, 10], radius=1.5);
+		translate([0.7, 0, 0])
+			roundedcubez_(size=[23 + 1.6, 7 + 1, 10], radius=1.5);
 
 		// USB
 		translate([o_x / 2 - 7, -13.75, 1.3])
@@ -48,7 +48,7 @@ module enclosure() {
 				}
 
 		// Power LED
-		translate([-18.5, 0, o_z - 7.5])
+		translate([-18.6, 0, o_z - 7.5])
 			cylinder(d=2, h=5);
 	}
 
@@ -88,11 +88,6 @@ module enclosure2(is_top=false) {
 				// BOOT0 switch
 				translate([-17.3, -20, 0.55 - 2])
 					cube(size=[3, 10, 1.5 + 4], center=true);
-
-				// Text
-				// translate([-left_shift, -10, 5.5 - 0.5])
-				// 	linear_extrude(3)
-				// 		text("clock_box", size=4, font="3x3 Font for Nerds", halign="center", valign="center");
 			}
 			for (i=[-1, 1]) {
 				// M2 screw-holes
@@ -102,7 +97,7 @@ module enclosure2(is_top=false) {
 				translate([0, i * 17.5, -6.5 + 1.7])
 					cylinder(h=4, d=4.2 * 1.155, center=true, $fn=6);
 				// Screw head holes
-				translate([0, i * 17.5, 10.5 - 4.0])
+				translate([0, i * 17.5, 10.5 - 3.75])
 					cylinder(h=10, d=4.1, center=true);
 			}
 		}
@@ -124,6 +119,9 @@ module pcb() {
 	color("yellow")
 		translate([0, 0, -2])
 			import("clock_box.stl");
+	translate([1, 0.78, 1.9])
+		rotate([0, 0, 180])
+			oled();
 }
 
 // Simulate the rubber band
@@ -136,7 +134,7 @@ module pcb() {
 // Comment these for export
 pcb();
 
-// translate([0, 17.5, 3.5])
+// translate([0, 17.5, 3.75])
 // 	rotate([180, 0, 0])
 // 		screw();
 
@@ -145,9 +143,9 @@ pcb();
 intersection() {
 	union() {
 		enclosure2(true);
-		// enclosure2(false);
+		enclosure2(false);
 	}
-	translate([0, 50, 0])
-		cube(size=[100, 100, 100], center=true);
+	// translate([50, 0, 0])
+	// 	cube(size=[100, 100, 100], center=true);
 }
 

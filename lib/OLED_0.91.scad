@@ -1,14 +1,21 @@
-$fn = $preview ? 30 : 150;
+module oled() {
+	color("green")
+		translate([0, 0, 1.2 / 2])
+			cube(size=[38, 12, 1.2], center=true);
 
-include <roundedcube.scad>
+	color("black")
+		translate([2, 0, 1.2 + 1.15 / 2])
+			cube(size=[30, 11.5, 1.15], center=true);
 
-color("green")
-	cube_(size=[38, 12, 1.6]);
+	color("yellow")
+		translate([1-0.71, 0.78, 1.2 + 1.15 + 0.5 / 2])
+			cube(size=[22.38, 5.58, 0.5], center=true);
 
-color("black")
-	translate([1.0, 0, 1.6])
-		cube_(size=[30, 11.5, 0.5]);
-
-color("yellow")
-	translate([-0.71, 0.78, 1.6 + 0.41])
-		cube_(size=[22.38, 5.58, 0.1]);
+	for(i=[0:3])
+		translate([-19 + 1.25, (i - 1.5) * 2.54, -1.75]) {
+			cube(size=[0.6, 0.6, 7], center=true);
+			color("black")
+				translate([0, 0, 0.6])
+					cube(size=[2.5, 2.5, 2.3], center=true);
+		}
+}
