@@ -6,14 +6,13 @@ use <3x3_font_for_nerds.ttf>
 // Makes the casing thickness assymetric in y-direction
 left_shift = 2.5 / 2;
 
+w_shell = 1.5;
+// o_x = 48;
+o_x = 46.5;
+o_y = 43;
+o_z = 11;
+
 module enclosure() {
-	w_shell = 1.5;
-	// o_x = 48;
-	o_x = 46.5;
-	o_y = 43;
-	o_z = 10;
-
-
 	difference() {
 		translate([-left_shift, 0, -4.5]) {
 			roundedcubez_(size=[o_x + 4 - left_shift * 2, o_y, o_z], radius=3);
@@ -23,7 +22,7 @@ module enclosure() {
 
 		// Hollow it out
 		translate([0, 0, -3.5])
-			roundedcubez_(size=[o_x - w_shell * 2, 40.5, 8], radius=3);
+			roundedcubez_(size=[o_x - w_shell * 2, 40.5, o_z - 2], radius=3);
 
 		// OLED
 		translate([1.96, 0, 0])
@@ -65,10 +64,10 @@ module enclosure2(is_top=false) {
 				if (is_top) {
 					// Standoffs
 					for (i=[-1, 1]) {
-						translate([0, i * 17.5, 2]) {
-							cylinder(h=5, d=5.5, center=true);
-							translate([0, 2 * i, 0])
-								cube([5.5, 4, 5], center=true);
+						translate([0, i * 17.5, -0.5]) {
+							cylinder(h=o_z - 5, d=5.5, center=false);
+							translate([-5.5 / 2, 2 * i - 2, 0])
+								cube([5.5, 4, o_z - 5], center=false);
 						}
 					}
 				}
@@ -144,9 +143,9 @@ translate([0, 17.5, 4])
 intersection() {
 	union() {
 		enclosure2(true);
-		enclosure2(false);
+		// enclosure2(false);
 	}
-	translate([50, 0, 0])
+	translate([0, 50, 0])
 		cube(size=[100, 100, 100], center=true);
 }
 
