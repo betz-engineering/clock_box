@@ -25,8 +25,8 @@ module enclosure() {
 			roundedcubez_(size=[o_x - w_shell * 2, 40.5, o_z - 2], radius=3);
 
 		// OLED
-		translate([1.96, 0, 0])
-			roundedcubez_(size=[23 + 2, 7 + 1, 10], radius=1.5);
+		translate([2 + 0.5, 0, 0])
+			roundedcubez_(size=[23 + 4, 7 + 1, 10], radius=1.5);
 
 		// USB
 		translate([o_x / 2 - 7, -13.75, 1.3])
@@ -132,20 +132,20 @@ module pcb() {
 
 
 // Comment these for export
-pcb();
+// pcb();
 
-translate([0, 17.5, 4])
-	rotate([180, 0, 0])
-		screw();
+// translate([0, 17.5, 4])
+// 	rotate([180, 0, 0])
+// 		screw();
 
 
 // Export the 2 shells
 intersection() {
 	union() {
 		enclosure2(true);
-		// enclosure2(false);
+		enclosure2(false);
 	}
-	translate([0, 50, 0])
-		cube(size=[100, 100, 100], center=true);
+	// translate([0, 50, 0])
+	// 	cube(size=[100, 100, 100], center=true);
 }
 
