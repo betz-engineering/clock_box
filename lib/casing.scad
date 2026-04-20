@@ -76,8 +76,8 @@ module enclosure2(is_top=false) {
 			}
 			if (is_top) {
 				// Encoder
-				translate([10, 16, 2.6])
-					cylinder(h=2.5, d=15.5, center=true);
+				translate([10, 16, 2.7])
+					cylinder(h=2.7, d=15.5, center=true);
 				// translate([17.3, 16, 2.6])
 				// 	cylinder(h=2.5, d=16, center=true);
 
