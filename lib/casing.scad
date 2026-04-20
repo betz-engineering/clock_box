@@ -48,8 +48,8 @@ module enclosure() {
 				}
 
 		// Power LED
-		translate([-18.5, 0, 0])
-			cylinder(d=3, h=5.55);
+		translate([-18.5, 0, o_z - 7.5])
+			cylinder(d=2, h=5);
 	}
 
 	// bottom plate
