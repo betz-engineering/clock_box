@@ -6125,6 +6125,17 @@
 		)
 		(uuid "c3c2a535-e038-48f7-bfc3-7526e6603dd1")
 	)
+	(text "TODO REV: 1\n[Move ENC_* to PA0, PA1]\nConnect LED to GPIO\nImprove transition to SMA con."
+		(exclude_from_sim no)
+		(at 215.138 172.466 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4e3914f-7182-4fa2-9321-3cec86b98fba")
+	)
 	(junction
 		(at 133.35 130.81)
 		(diameter 0)
@@ -9972,7 +9983,7 @@
 		(dnp no)
 		(uuid "1d0742f6-7125-42fb-a272-e776840e3799")
 		(property "Reference" "C34"
-			(at 73.406 47.244 90)
+			(at 69.85 42.926 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9983,7 +9994,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 69.088 47.244 90)
+			(at 68.834 47.244 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14095,7 +14106,7 @@
 		(dnp no)
 		(uuid "6ae68acd-1f01-4d5e-8c8b-1f55288e9e21")
 		(property "Reference" "C33"
-			(at 78.994 47.244 90)
+			(at 83.058 42.926 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
