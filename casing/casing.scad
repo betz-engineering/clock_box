@@ -1,6 +1,5 @@
 $fn = $preview ? 30 : 150;
 
-include <roundedcube.scad>
 include <OLED_0.91.scad>
 
 // Makes the casing thickness assymetric in y-direction
@@ -11,6 +10,18 @@ w_shell = 1.5;
 o_x = 46.5;
 o_y = 43;
 o_z = 10.75;
+
+// centered on XY only
+module roundedcubez_(size = [1, 1, 1], radius = 0.5) {
+	linear_extrude(height=size[2]) {
+		square([size[0] - 2 * radius, size[1]], center=true);
+		square([size[0], size[1] - 2 * radius], center=true);
+		for (i=[-1, 1])
+			for (j=[-1, 1])
+				translate([i * (size[0] / 2 - radius), j * (size[1] / 2 - radius), 0])
+					circle(r = radius);
+	}
+}
 
 module enclosure() {
 	difference() {
@@ -109,42 +120,34 @@ module enclosure2(is_top=false) {
 
 // Mock components for Preview
 
-module screw(l=6) {
-	cylinder(h=2, d=3.8);
-	translate([0, 0, 2])
-		cylinder(h=l, d=2.0);
-}
-
-module pcb() {
-	color("yellow")
-		translate([0, 0, -2])
-			import("clock_box.stl");
-	translate([1, 0.78, 1.9])
-		rotate([0, 0, 180])
-			oled();
-}
-
-// Simulate the rubber band
-// for (i=[-1, 1])
-// 	translate([i * 18, 0, 0.5])
-// 		#cube(size=[5, 44, 11.5], center=true);
-
-
-
-// Comment these for export
-pcb();
+// module screw(l=6) {
+// 	cylinder(h=2, d=3.8);
+// 	translate([0, 0, 2])
+// 		cylinder(h=l, d=2.0);
+// }
 
 // translate([0, 17.5, 3.75])
 // 	rotate([180, 0, 0])
 // 		screw();
+
+// PCB mockup: Needs a 3D export in .stl format from Kicad
+// module pcb() {
+// 	color("yellow")
+// 		translate([0, 0, -2])
+// 			import("clock_box.stl");
+// 	translate([1, 0.78, 1.9])
+// 		rotate([0, 0, 180])
+// 			oled();
+// }
 
 
 // Export the 2 shells
 intersection() {
 	union() {
 		enclosure2(true);
-		enclosure2(false);
+		// enclosure2(false);
 	}
+	// Cross-section view
 	// translate([50, 0, 0])
 	// 	cube(size=[100, 100, 100], center=true);
 }
