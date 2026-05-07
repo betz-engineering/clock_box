@@ -5,8 +5,8 @@
 	(uuid "98a689e0-8012-4936-b7e1-14ec12ba6c05")
 	(paper "A4")
 	(title_block
-		(date "2026-04-02")
-		(rev "-")
+		(date "2026-05-07")
+		(rev "1")
 		(comment 1 "a versatile clock generator")
 	)
 	(lib_symbols
@@ -3524,25 +3524,23 @@
 		(dnp no)
 		(uuid "18e5530e-4501-40fa-81a4-5d4bd246b14c")
 		(property "Reference" "C3"
-			(at 108.204 103.124 0)
+			(at 104.14 112.522 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 107.95 107.95 0)
+			(at 104.14 115.062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -3996,25 +3994,23 @@
 		(dnp no)
 		(uuid "3e3aeda6-7883-4bed-80ab-7f5b5439a064")
 		(property "Reference" "C1"
-			(at 113.284 103.124 0)
+			(at 109.22 112.522 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 113.03 107.95 0)
+			(at 109.22 115.062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -4078,25 +4074,23 @@
 		(dnp no)
 		(uuid "4713d69e-b8d9-4c6a-9de7-3025f02ed31d")
 		(property "Reference" "C5"
-			(at 103.124 71.374 0)
+			(at 99.06 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 102.87 76.2 0)
+			(at 99.06 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -4403,6 +4397,7 @@
 		)
 		(property "Value" "GND"
 			(at 104.14 80.264 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4641,25 +4636,23 @@
 		(dnp no)
 		(uuid "6565cb20-a9a2-42d2-9e6d-6a63d0164a4f")
 		(property "Reference" "C6"
-			(at 108.204 71.374 0)
+			(at 104.14 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 107.95 76.2 0)
+			(at 104.14 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -5007,25 +5000,23 @@
 		(dnp no)
 		(uuid "8555f195-39ae-4ca2-8323-ff6b8c728944")
 		(property "Reference" "C2"
-			(at 103.124 103.124 0)
+			(at 99.06 112.522 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 102.87 107.95 0)
+			(at 99.06 115.062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -5089,25 +5080,23 @@
 		(dnp no)
 		(uuid "8839e58c-cff1-462f-96ac-143cbd23860a")
 		(property "Reference" "C4"
-			(at 113.284 71.374 0)
+			(at 109.22 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 113.03 76.2 0)
+			(at 109.22 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -5438,6 +5427,7 @@
 		)
 		(property "Value" "GND"
 			(at 99.06 112.014 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6180,6 +6170,7 @@
 		)
 		(property "Value" "GND"
 			(at 104.14 112.014 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6257,6 +6248,7 @@
 		)
 		(property "Value" "GND"
 			(at 109.22 80.264 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6411,6 +6403,7 @@
 		)
 		(property "Value" "GND"
 			(at 109.22 112.014 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6488,6 +6481,7 @@
 		)
 		(property "Value" "GND"
 			(at 99.06 80.264 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

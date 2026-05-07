@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "clock_box")
-		(date "2026-04-02")
-		(rev "-")
+		(date "2026-05-07")
+		(rev "1")
 		(company "Betz Engineering")
 		(comment 1 "a versatile clock generator")
 	)
@@ -6125,9 +6125,9 @@
 		)
 		(uuid "c3c2a535-e038-48f7-bfc3-7526e6603dd1")
 	)
-	(text "TODO REV: 1\n[Move ENC_* to PA0, PA1]\nConnect LED to GPIO\nImprove transition to SMA con."
+	(text "REV: 1\nImprove transition to SMA con.\nVia stitching\nThermal gaps"
 		(exclude_from_sim no)
-		(at 215.138 172.466 0)
+		(at 215.392 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
